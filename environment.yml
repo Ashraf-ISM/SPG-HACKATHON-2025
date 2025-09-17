@@ -1,0 +1,38 @@
+name: spg-hackathon
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - jupyterlab
+  - tensorflow
+  - pytorch
+  - nltk
+  - spacy
+  - requests
+  - h5py
+  - pyyaml
+  - pytest
+  - black
+  - flake8
+  - pip
+  - pip:
+    - lasio
+    - welly
+    - obspy
+    - transformers
+    - gensim
+    - xgboost
+    - lightgbm
+    - tqdm
+    - python-dotenv
+    - fastapi
+    - pre-commit
