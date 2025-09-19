@@ -183,28 +183,6 @@ jupyter lab notebooks/
 
 ## 👥 Team Members
 
-<div align="center">
-
-### **🏆 Leadership**
-
-| Role | Name | GitHub | LinkedIn |
-|------|------|---------|----------|
-| **Team Lead** | **Pradyut Laha** | [@pradyutlaha](https://github.com/pradyutlaha) | [LinkedIn](https://linkedin.com/in/pradyutlaha) |
-
-### **🚀 Core Team**
-
-| Role | Name | Expertise | Contact |
-|------|------|-----------|---------|
-| **Data Scientist** | *[Name TBD]* | ML/AI, Analytics | *[Contact TBD]* |
-| **Backend Developer** | *[Name TBD]* | Python, APIs, Cloud | *[Contact TBD]* |
-| **Frontend Developer** | *[Name TBD]* | UI/UX, Visualization | *[Contact TBD]* |
-| **DevOps Engineer** | *[Name TBD]* | Cloud, CI/CD, Infrastructure | *[Contact TBD]* |
-
-</div>
-
-*🔄 Team composition will be updated as members are confirmed*
-
----
 
 ## 📊 Project Timeline
 
