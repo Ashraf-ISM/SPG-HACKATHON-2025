@@ -1,7 +1,8 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Seismic%20Facies%20Analysis&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Subsurface%20Intelligence&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Seismic%20Facies%20Analysis&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Using%20Machine%20Learning&descAlignY=55&descAlign=50" width="100%"/>
+
 
 <!-- Animated Typing Effect -->
 <p align="center">
@@ -1153,14 +1154,14 @@ and artificial intelligence"
 <table align="center">
 <tr>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80"/>
+<img src="https://github.com/Ashraf-ISM/SPG-HACKATHON-2025/blob/Well-log/Images/Logo/slb.jpeg" width="80"/>
 <br/>
 <b>🏢 SLB</b>
 <br/>
 <sub>Hackathon hosting &<br/>industry mentorship</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="80"/>
+<img src="https://github.com/Ashraf-ISM/SPG-HACKATHON-2025/blob/Well-log/Images/Logo/spg.jpeg" width="80"/>
 <br/>
 <b>🎓 SPG</b>
 <br/>
@@ -1336,45 +1337,7 @@ refactor: optimize feature extraction
 
 <br/>
 
-## 📚 **Citation**
 
-<div align="center">
-
-### **📖 Using This Work? Please Cite Us!**
-
-</div>
-
-```bibtex
-@software{ashraf2025seismic,
-  author       = {Ashraf, Md and Pradyut},
-  title        = {Seismic Facies Analysis Using Machine Learning: 
-                  An Ensemble Approach for Subsurface Characterization},
-  year         = {2025},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/seismic-facies-ml}},
-  note         = {SLB × SPG Geophysics Hackathon 2025 - Winner Project},
-  doi          = {10.5281/zenodo.XXXXXXX}
-}
-```
-
-**APA Format:**
-```
-Ashraf, M., & Pradyut. (2025). Seismic Facies Analysis Using Machine Learning 
-[Computer software]. GitHub. https://github.com/yourusername/seismic-facies-ml
-```
-
-**IEEE Format:**
-```
-M. Ashraf and Pradyut, "Seismic Facies Analysis Using Machine Learning," 
-GitHub, 2025. [Online]. Available: https://github.com/yourusername/seismic-facies-ml
-```
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
-
-<br/>
 
 ## 📄 **License**
 
