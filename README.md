@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Seismic%20Facies%20Analysis&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Using%20Machine%20Learning&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Ensemble%20Based%20Facies%20Propagation&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Using%20Machine%20Learning&descAlignY=55&descAlign=50" width="100%"/>
 
 
 <!-- Animated Typing Effect -->
