@@ -922,9 +922,9 @@ Improved discrimination accuracy
 <table>
 <tr>
 <td align="center" width="50%">
-<img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="150"/>
+<img src="https://github.com/Ashraf-ISM/SPG-HACKATHON-2025/blob/Well-log/Images/Logo/pic-dp.jpg" width="150"/>
 <br/>
-<img src="https://img.shields.io/badge/Md_Ashraf-Machine_Learning_Engineer-667eea?style=for-the-badge&logo=github" alt="Ashraf"/>
+<img src="https://img.shields.io/badge/Md_Ashraf-667eea?style=for-the-badge&logo=github" alt="Ashraf"/>
 <br/><br/>
 <b>🧠 ML Architecture & Model Development</b>
 <br/><br/>
@@ -933,20 +933,20 @@ Improved discrimination accuracy
 intelligent algorithms, one layer at a time"
 </sub>
 <br/><br/>
-<a href="mailto:mdashraf@example.com">
+<a href="mailto:ashraf.ism49@gmail.com">
 <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-<a href="https://linkedin.com/in/mdashraf">
+<a href="https://www.linkedin.com/in/ashraf-iit-ism/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-<a href="https://github.com/mdashraf">
+<a href="https://github.com/Ashraf-ISM">
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 </td>
 <td align="center" width="50%">
 <img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="150"/>
 <br/>
-<img src="https://img.shields.io/badge/Pradyut-Geophysicist_&_Data_Scientist-764ba2?style=for-the-badge&logo=github" alt="Pradyut"/>
+<img src="https://img.shields.io/badge/Pradyut Laha-764ba2?style=for-the-badge&logo=github" alt="Pradyut Laha"/>
 <br/><br/>
 <b>🌊 Seismic Analysis & Domain Expertise</b>
 <br/><br/>
@@ -955,10 +955,10 @@ intelligent algorithms, one layer at a time"
 and artificial intelligence"
 </sub>
 <br/><br/>
-<a href="mailto:pradyut@example.com">
+<a href="mailto:23mc0056@iitism.ac.in">
 <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-<a href="https://linkedin.com/in/pradyut">
+<a href="https://www.linkedin.com/in/pradyut-laha-0b8319271/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="https://github.com/pradyut">
@@ -975,14 +975,14 @@ and artificial intelligence"
 <table align="center">
 <tr>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="80"/>
+<img src="https://github.com/Ashraf-ISM/SPG-HACKATHON-2025/blob/Well-log/Images/Logo/slb.png" width="80"/>
 <br/>
 <b>🏢 SLB</b>
 <br/>
 <sub>Hackathon hosting &<br/>industry mentorship</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="80"/>
+<img src="https://github.com/Ashraf-ISM/SPG-HACKATHON-2025/blob/Well-log/Images/Logo/spg.jpeg" width="80"/>
 <br/>
 <b>🎓 SPG</b>
 <br/>
@@ -996,11 +996,11 @@ and artificial intelligence"
 <sub>CatBoost, scikit-learn,<br/>segyio communities</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="80"/>
+<img src="https://github.com/Ashraf-ISM/SPG-HACKATHON-2025/blob/Well-log/Images/Logo/subsurface_resource_charecterization_lab_iit_ism_dhanbad_logo.jpeg" width="80"/>
 <br/>
-<b>👨‍🏫 Academia</b>
+<b>👨‍🏫 Subsurface Resource Characterization Lab</b>
 <br/>
-<sub>Research support &<br/>theoretical foundations</sub>
+<sub>Geophysical Research & Technical Guidance</sub>
 </td>
 </tr>
 </table>
@@ -1163,7 +1163,7 @@ SOFTWARE.
 <br/>
 <b>📧 Email</b>
 <br/>
-<a href="mailto:seismic-ml@example.com">seismic-ml@example.com</a>
+<a href="mailto:ashraf.ism49@gmail.com">ashraf.ism49@gmail.com</a>
 </td>
 <td align="center" width="33%">
 <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="80"/>
