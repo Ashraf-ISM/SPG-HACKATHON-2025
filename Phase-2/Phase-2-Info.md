@@ -1,181 +1,150 @@
-SPG×SLB Hackathon 2025 – Seismic Denoising Challenge (Phase 2)
-📌 Overview
+# SPG×SLB Hackathon 2025 – Seismic Denoising Challenge
 
-This repository contains my solution for Phase 2 of the SPG×SLB Hackathon 2025 – Seismic Denoising Challenge, hosted on Kaggle.
+<div align="center">
 
-The objective of this challenge is to enhance the quality of 2D seismic sections by removing random and coherent noise using AI / ML–based approaches, while preserving geological structures such as horizons, reflectors, and faults.
+![Phase 2](https://img.shields.io/badge/Phase-2-blue?style=for-the-badge)
+![Competition](https://img.shields.io/badge/Platform-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
-This work lies at the intersection of geophysics, signal processing, and data-driven modeling, with direct relevance to seismic interpretation and subsurface imaging.
+**AI-Powered Seismic Data Enhancement for Subsurface Imaging**
 
-🧠 Problem Statement
+[Competition Link](https://www.kaggle.com) • [Documentation](#-documentation) • [Results](#-outputs--visualizations)
 
-Given noisy 2D seismic sections:
+</div>
 
-Suppress random and coherent noise
+---
 
-Preserve structural continuity
+## 🎯 Overview
 
-Avoid distortion of true geological signals
+This repository presents a comprehensive solution for **Phase 2** of the SPG×SLB Hackathon 2025 Seismic Denoising Challenge. The project focuses on enhancing 2D seismic sections through advanced AI/ML techniques, effectively removing random and coherent noise while maintaining critical geological structures.
 
-The final task is to denoise a target (subject) seismic section and submit:
+**Core Objectives:**
+- Suppress random and coherent seismic noise
+- Preserve structural continuity of geological features
+- Maintain fidelity of horizons, reflectors, and fault patterns
+- Achieve optimal balance between noise reduction and signal preservation
 
-The denoised seismic section
+This work bridges **geophysics**, **signal processing**, and **data-driven modeling**, delivering practical solutions for seismic interpretation and subsurface imaging applications.
 
-An amplitude spectrum comparison (original vs denoised)
+---
 
-📂 Dataset Description
-Training Data
+## 🧠 Problem Statement
 
-200 2D seismic sections
+### Challenge Requirements
 
-Format: .npz
+Given noisy 2D seismic sections, the model must:
 
-Shape:
+1. **Noise Suppression** – Eliminate both random and coherent noise patterns
+2. **Structural Preservation** – Maintain geological continuity and features
+3. **Signal Fidelity** – Prevent distortion of authentic geological signals
 
-(num_xlines, num_time_samples)
+### Deliverables
 
+- Denoised seismic section (2D array)
+- Amplitude spectrum comparison (original vs. denoised)
+- Performance metrics demonstrating structural preservation
 
-Each section represents an inline (iline) slice
+---
 
-Evaluation Data
+## 📂 Dataset Architecture
 
-subject_seismic.npz
+### Training Dataset
 
-This is the seismic section used for final evaluation
+| Attribute | Description |
+|-----------|-------------|
+| **Volume** | 200 2D seismic sections |
+| **Format** | `.npz` (NumPy compressed) |
+| **Shape** | `(num_xlines, num_time_samples)` |
+| **Type** | Inline (iline) slices |
+| **Values** | Floating-point seismic amplitudes |
 
-Additional Files
+### Evaluation Dataset
 
-sample_submission.csv – template for submission format
+- **File:** `subject_seismic.npz`
+- **Purpose:** Final model evaluation target
 
-🧪 Data Format
+### Supporting Files
 
-Stored as NumPy compressed files (.npz)
+- `sample_submission.csv` – Submission format template
 
-Each file contains a single 2D array:
+### Data Structure
 
-X-axis → Crosslines (xlines)
+```
+Axis Configuration:
+├── X-axis → Crosslines (xlines)
+└── Y-axis → Time samples
 
-Y-axis → Time samples
+Storage: NumPy compressed format (.npz)
+Content: Single 2D array per file
+```
 
-Amplitude values are floating-point seismic amplitudes
+---
 
-🎯 Evaluation Metric
+## 📊 Evaluation Metrics
 
-Submissions are evaluated using a combined score based on:
+The solution is evaluated using a **composite scoring system**:
 
-Final Score = x × SSIM + y × PSNR
+```
+Final Score = α × SSIM + β × PSNR
+```
 
+### Metric Breakdown
 
-Where:
+| Metric | Purpose | Weight |
+|--------|---------|--------|
+| **SSIM** | Structural Similarity Index<br>Measures preservation of geological structures | α |
+| **PSNR** | Peak Signal-to-Noise Ratio<br>Quantifies noise suppression quality | β |
 
-SSIM (Structural Similarity Index)
-→ Measures preservation of geological structures (faults, horizons)
+> **Note:** Structural preservation takes precedence over aggressive noise smoothing to maintain geological interpretability.
 
-PSNR (Peak Signal-to-Noise Ratio)
-→ Measures overall noise suppression and pixel-level similarity
+---
 
-⚠️ Structural preservation is prioritized over aggressive smoothing.
+## 🛠️ Methodology
 
-🛠️ Methodology (High-Level)
+### Processing Pipeline
 
-(You can expand this section later with model details)
+```
+Data Ingestion → Normalization → AI/ML Denoising → Post-processing → Validation
+```
 
-Data normalization and preprocessing
+**Key Components:**
 
-AI / ML-based denoising model
+1. **Preprocessing**
+   - Data normalization and standardization
+   - Quality assessment and validation
 
-Careful tuning to balance:
+2. **Model Architecture**
+   - AI/ML-based denoising framework
+   - Optimized for geological feature preservation
 
-Noise suppression
+3. **Optimization Strategy**
+   - Balance between noise suppression and structural continuity
+   - Hyperparameter tuning for SSIM-PSNR optimization
 
-Geological continuity
+4. **Validation**
+   - Amplitude spectrum analysis
+   - Visual and quantitative quality assessment
 
-Post-processing and visualization
+---
 
-Amplitude spectrum analysis for validation
+## 📁 Repository Structure
 
-📊 Outputs & Visualizations
-
-The following outputs are generated:
-
-✅ Denoised seismic section (2D image)
-
-📈 Amplitude spectrum comparison
-(Original vs Denoised – single plot)
-
-📦 Final denoised data saved in .npz format
-
-📁 Repository Structure
-├── data/
-│   ├── train/
-│   └── subject_seismic.npz
+```
+seismic-denoising-spgxslb/
 │
-├── notebooks/
-│   ├── data_exploration.ipynb
-│   ├── model_training.ipynb
-│   └── inference.ipynb
+├── 📂 data/
+│   ├── train/                    # Training seismic sections
+│   └── subject_seismic.npz       # Evaluation target
 │
-├── results/
-│   ├── denoised_seismic.png
-│   └── amplitude_spectrum.png
+├── 📂 notebooks/
+│   ├── data_exploration.ipynb    # EDA and visualization
+│   ├── model_training.ipynb      # Model development
+│   └── inference.ipynb           # Prediction pipeline
 │
-├── src/
-│   ├── preprocessing.py
-│   ├── model.py
-│   └── utils.py
+├── 📂 results/
+│   ├── denoised_seismic.png      # Output visualization
+│   └── amplitude_spectrum.png    # Frequency analysis
 │
-├── requirements.txt
-├── README.md
-└── LICENSE
-
-🚀 How to Run
-# Clone the repository
-git clone https://github.com/<your-username>/seismic-denoising-spgxslb.git
-cd seismic-denoising-spgxslb
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run inference
-python src/inference.py
-
-🧾 Competition Details
-
-Competition: SPG×SLB Hackathon 2025 – Phase 2
-
-Platform: Kaggle
-
-Host: Vishvendra Veer
-
-Participants: 32
-
-Teams: 8
-
-Submissions: 34
-
-Category: Community Prediction Challenge (Private)
-
-📖 Acronyms
-
-iline – Inline number
-
-xline – Crossline number
-
-SSIM – Structural Similarity Index
-
-PSNR – Peak Signal-to-Noise Ratio
-
-📜 License
-
-This project follows the Kaggle Competition Rules.
-Dataset usage is restricted to the terms defined by the competition.
-
-🙌 Acknowledgements
-
-Society of Petroleum Geophysicists (SPG)
-
-SLB (Schlumberger)
-
-Kaggle platform and community
-
-Organizers of SPG×SLB Hackathon 2025
+├── 📂 src/
+│   ├── preprocessing.py          # Data preparation utilities
+│   ├── model.py                  # Model architectu
