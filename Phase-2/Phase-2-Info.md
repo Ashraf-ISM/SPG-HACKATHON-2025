@@ -147,4 +147,108 @@ seismic-denoising-spgxslb/
 │
 ├── 📂 src/
 │   ├── preprocessing.py          # Data preparation utilities
-│   ├── model.py                  # Model architectu
+│   ├── model.py                  # Model architecture
+│   └── utils.py                  # Helper functions
+│
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project documentation
+└── LICENSE                       # License information
+```
+
+---
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/seismic-denoising-spgxslb.git
+cd seismic-denoising-spgxslb
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Running Inference
+
+```bash
+# Execute denoising pipeline
+python src/inference.py
+```
+
+### Expected Output
+
+- Denoised seismic section (`.npz` format)
+- Visualization images in `results/` directory
+- Performance metrics and comparison plots
+
+---
+
+## 📈 Outputs & Visualizations
+
+The solution generates comprehensive analytical outputs:
+
+- ✅ **Denoised Seismic Section** – Enhanced 2D seismic image
+- 📊 **Amplitude Spectrum Comparison** – Frequency domain analysis
+- 💾 **Processed Data** – Denoised arrays in `.npz` format
+- 📉 **Performance Metrics** – SSIM and PSNR scores
+
+---
+
+## 🏆 Competition Details
+
+| Attribute | Value |
+|-----------|-------|
+| **Competition** | SPG×SLB Hackathon 2025 – Phase 2 |
+| **Platform** | Kaggle |
+| **Organizer** | Vishvendra Veer |
+| **Participants** | 32 individuals |
+| **Teams** | 8 teams |
+| **Submissions** | 34 total |
+| **Category** | Community Prediction Challenge (Private) |
+
+---
+
+## 📖 Terminology Reference
+
+| Acronym | Definition |
+|---------|------------|
+| **iline** | Inline number – Seismic survey line running in one direction |
+| **xline** | Crossline number – Perpendicular to inline direction |
+| **SSIM** | Structural Similarity Index – Perceptual quality metric |
+| **PSNR** | Peak Signal-to-Noise Ratio – Reconstruction quality metric |
+| **SPG** | Society of Petroleum Geophysicists |
+| **SLB** | Schlumberger |
+
+---
+
+## 📜 License
+
+This project adheres to **Kaggle Competition Rules**. Dataset usage is governed by the competition's terms and conditions. Commercial use may be restricted.
+
+---
+
+## 🙌 Acknowledgements
+
+Special thanks to the following organizations and individuals:
+
+- **Society of Petroleum Geophysicists (SPG)** – Domain expertise and support
+- **SLB (Schlumberger)** – Industry partnership and resources
+- **Kaggle Platform** – Competition infrastructure and community
+- **Competition Organizers** – SPG×SLB Hackathon 2025 team
+- **Open Source Community** – Tools and libraries that made this work possible
+
+---
+
+<div align="center">
+
+**Built with** ❤️ **for advancing seismic interpretation through AI**
+
+[⬆ Back to Top](#spgslb-hackathon-2025--seismic-denoising-challenge)
+
+</div>
